@@ -5,7 +5,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/raja24790?tab=repositories"><img src="https://img.shields.io/badge/Projects-32+-0A66C2?style=for-the-badge"></a>
+  <a href="https://github.com/raja24790?tab=repositories"><img src="https://img.shields.io/badge/Projects-38+-0A66C2?style=for-the-badge"></a>
   <a href="https://localaimaster.com"><img src="https://img.shields.io/badge/LocalAIMaster.com-Visit-0B8F60?style=for-the-badge"></a>
   <a href="mailto:support@localaimaster.com"><img src="https://img.shields.io/badge/Email-support@localaimaster.com-B3261E?style=for-the-badge"></a>
 </p>
