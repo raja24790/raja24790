@@ -16,11 +16,11 @@
 
 ---
 
-## Flagship Project
+## Flagship Local AI Collection
 
 <table>
   <tr>
-    <td valign="top">
+    <td width="50%" valign="top">
       <h3><a href="https://github.com/raja24790/ollama-docker-templates">Ollama Docker Stacks</a></h3>
       <p>Practical Docker Compose stacks for Ollama: Open WebUI, n8n, Flowise, ChromaDB, Langfuse, Jupyter, code-server, LibreChat, and multi-GPU local AI.</p>
       <p>
@@ -30,6 +30,65 @@
         <img src="https://img.shields.io/badge/Local_AI-2F80ED?style=flat">
       </p>
       <p><b>Why star it:</b> it solves a clear developer problem: start useful local AI stacks quickly, with security notes, helper scripts, and a contribution path for new stacks.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/raja24790/rag-starter-kit">Local RAG Starter Kit</a></h3>
+      <p>Document Q&A with Ollama, ChromaDB, FastAPI, Streamlit, source citations, Docker, and private local knowledge-base workflows.</p>
+      <p>
+        <img src="https://img.shields.io/badge/RAG-0B8F60?style=flat">
+        <img src="https://img.shields.io/badge/ChromaDB-4A4A4A?style=flat">
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white">
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat&logo=streamlit&logoColor=white">
+      </p>
+      <p><b>Why star it:</b> it gives developers a clean starting point for private document chat and local RAG experiments.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/raja24790/ai-agent-starter-kit">AI Agent Starter Kit</a></h3>
+      <p>Python ReAct-style local agents with Ollama tool calling for research, code review, file reading, and data analysis workflows.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white">
+        <img src="https://img.shields.io/badge/Ollama-000000?style=flat">
+        <img src="https://img.shields.io/badge/Tool_Calling-2F80ED?style=flat">
+        <img src="https://img.shields.io/badge/Agents-0B8F60?style=flat">
+      </p>
+      <p><b>Why star it:</b> it is small enough to understand and useful enough to fork into real agent workflows.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/raja24790/local-ai-automation-scripts">Local AI Automation Scripts</a></h3>
+      <p>Ollama-powered Python scripts for document summarization, code review, test generation, entity extraction, email drafting, and batch workflows.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Automation-B3261E?style=flat">
+        <img src="https://img.shields.io/badge/Local_LLM-000000?style=flat">
+        <img src="https://img.shields.io/badge/Summarization-0B8F60?style=flat">
+        <img src="https://img.shields.io/badge/Code_Review-2F80ED?style=flat">
+      </p>
+      <p><b>Why star it:</b> it is a practical toolbox for local AI tasks people run repeatedly.</p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/raja24790/ollama-prompt-pack">Ollama Prompt Pack</a></h3>
+      <p>Prompt libraries and Ollama Modelfiles for coding, writing, RAG, analysis, business, creative workflows, and expert personas.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Prompts-2F80ED?style=flat">
+        <img src="https://img.shields.io/badge/Modelfiles-0B8F60?style=flat">
+        <img src="https://img.shields.io/badge/RAG-4A4A4A?style=flat">
+        <img src="https://img.shields.io/badge/Coding-B3261E?style=flat">
+      </p>
+      <p><b>Why star it:</b> it helps local LLM users get better outputs without building a whole app first.</p>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/raja24790/fine-tuning-starter-kit">Fine-Tuning Starter Kit</a></h3>
+      <p>Instruction dataset preparation, LoRA training entrypoint, Unsloth workflow notes, and GGUF/Ollama handoff guidance.</p>
+      <p>
+        <img src="https://img.shields.io/badge/LoRA-0B8F60?style=flat">
+        <img src="https://img.shields.io/badge/Unsloth-4A4A4A?style=flat">
+        <img src="https://img.shields.io/badge/GGUF-000000?style=flat">
+        <img src="https://img.shields.io/badge/Datasets-2F80ED?style=flat">
+      </p>
+      <p><b>Why star it:</b> it gives beginners a concrete path through data prep, training setup, and Ollama packaging.</p>
     </td>
   </tr>
 </table>
@@ -67,12 +126,12 @@
 
 | Kit | What it gives users | Status |
 | --- | --- | --- |
+| [Ollama Docker Stacks](https://github.com/raja24790/ollama-docker-templates) | Docker Compose stacks for Ollama, Open WebUI, n8n, Flowise, ChromaDB, Langfuse, Jupyter, code-server, LibreChat, and multi-GPU local AI. | Public |
 | [RAG Starter Kit](https://github.com/raja24790/rag-starter-kit) | Local document Q&A with Ollama, ChromaDB, FastAPI, Streamlit, citations, API, and Docker setup. | Public |
 | [AI Agent Starter Kit](https://github.com/raja24790/ai-agent-starter-kit) | Local research, code review, and data analysis agents with tool calling. | Public |
-| [Fine-Tuning Starter Kit](https://github.com/raja24790/fine-tuning-starter-kit) | Dataset preparation, LoRA training, GGUF conversion, Ollama run flow, and sample datasets. | Public |
-| [Ollama Docker Stacks](https://github.com/raja24790/ollama-docker-templates) | 10 Docker Compose stacks for Open WebUI, n8n, Flowise, ChromaDB, Langfuse, Jupyter, code-server, LibreChat, and multi-GPU Ollama. | Public |
-| [Local AI Automation Scripts](https://github.com/raja24790/local-ai-automation-scripts) | 25 scripts for summarization, code review, extraction, writing, research, and batch workflows. | Public |
-| [Ollama Prompt Pack](https://github.com/raja24790/ollama-prompt-pack) | 500+ prompts, Modelfiles, JSON exports, and one-command install scripts. | Public |
+| [Local AI Automation Scripts](https://github.com/raja24790/local-ai-automation-scripts) | Scripts for summarization, code review, extraction, writing, research, and batch workflows. | Public |
+| [Ollama Prompt Pack](https://github.com/raja24790/ollama-prompt-pack) | Prompt libraries and Modelfiles for coding, writing, RAG, business, analysis, and expert personas. | Public |
+| [Fine-Tuning Starter Kit](https://github.com/raja24790/fine-tuning-starter-kit) | Dataset preparation, LoRA training entrypoint, GGUF/Ollama handoff notes, and sample instruction datasets. | Public |
 
 ## Product Areas
 
