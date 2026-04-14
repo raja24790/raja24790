@@ -16,6 +16,24 @@
 
 ---
 
+## Flagship Project
+
+<table>
+  <tr>
+    <td valign="top">
+      <h3><a href="https://github.com/raja24790/ollama-docker-templates">Ollama Docker Stacks</a></h3>
+      <p>Practical Docker Compose stacks for Ollama: Open WebUI, n8n, Flowise, ChromaDB, Langfuse, Jupyter, code-server, LibreChat, and multi-GPU local AI.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Ollama-000000?style=flat">
+        <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat&logo=docker&logoColor=white">
+        <img src="https://img.shields.io/badge/Self_Hosted-0B8F60?style=flat">
+        <img src="https://img.shields.io/badge/Local_AI-2F80ED?style=flat">
+      </p>
+      <p><b>Why star it:</b> it solves a clear developer problem: start useful local AI stacks quickly, with security notes, helper scripts, and a contribution path for new stacks.</p>
+    </td>
+  </tr>
+</table>
+
 ## Live Public Projects
 
 <table>
@@ -52,7 +70,7 @@
 | [RAG Starter Kit](https://github.com/raja24790/rag-starter-kit) | Local document Q&A with Ollama, ChromaDB, FastAPI, Streamlit, citations, API, and Docker setup. | Public |
 | [AI Agent Starter Kit](https://github.com/raja24790/ai-agent-starter-kit) | Local research, code review, and data analysis agents with tool calling. | Public |
 | [Fine-Tuning Starter Kit](https://github.com/raja24790/fine-tuning-starter-kit) | Dataset preparation, LoRA training, GGUF conversion, Ollama run flow, and sample datasets. | Public |
-| [Ollama Docker Templates](https://github.com/raja24790/ollama-docker-templates) | 10 one-command stacks for Open WebUI, n8n, Flowise, ChromaDB, Langfuse, Dify, LibreChat, and multi-GPU Ollama. | Public |
+| [Ollama Docker Stacks](https://github.com/raja24790/ollama-docker-templates) | 10 Docker Compose stacks for Open WebUI, n8n, Flowise, ChromaDB, Langfuse, Jupyter, code-server, LibreChat, and multi-GPU Ollama. | Public |
 | [Local AI Automation Scripts](https://github.com/raja24790/local-ai-automation-scripts) | 25 scripts for summarization, code review, extraction, writing, research, and batch workflows. | Public |
 | [Ollama Prompt Pack](https://github.com/raja24790/ollama-prompt-pack) | 500+ prompts, Modelfiles, JSON exports, and one-command install scripts. | Public |
 
@@ -80,10 +98,10 @@ git clone https://github.com/raja24790/ai-interviewer
 cd ai-interviewer
 docker compose up --build
 
-# Local document Q&A
-git clone https://github.com/raja24790/rag-starter-kit
-cd rag-starter-kit
-docker compose up -d
+# Local AI stack
+git clone https://github.com/raja24790/ollama-docker-templates
+cd ollama-docker-templates
+./scripts/start-stack.sh open-webui
 ```
 
 ## Stack
@@ -112,7 +130,7 @@ docker compose up -d
 
 - Run InvoiceOps with your own invoice examples and suggest new edge cases.
 - Try AI Interviewer locally and improve the scoring/reporting flow.
-- Open issues for the local AI kits you want expanded first.
+- Try Ollama Docker Stacks and request the next stack you want added.
 - Star the repos that save you time so I know what to build in public next.
 
 ## Connect
